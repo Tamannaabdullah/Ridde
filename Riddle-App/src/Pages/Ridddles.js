@@ -4,7 +4,7 @@ import './Riddles.css'
 
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q3";
+const QUESTION_NUM = "Q4";
 ////////////////////////////////////
 
 
@@ -40,7 +40,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddleStyle'>Third RIddle: asd sdfsdfsdfh</p>
+                <p className='riddleStyle'>Third RIddleeeee: asd sdfsdfsdfh</p>
                 <p>Answer to second riddle: map</p>
             </div>
 
