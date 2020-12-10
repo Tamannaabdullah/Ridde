@@ -44,7 +44,8 @@ function Riddles() {
                 <p>Answer to second riddle: map</p>
             </div>
 
-            <div>
+            <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
+
                 <h1> SUBMIT YOUR ANSWER HERE</h1>
                 <form>
                     <label htmlFor="name">Name:</label>
