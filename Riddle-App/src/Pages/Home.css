@@ -1,0 +1,21 @@
+body{
+    background: 	#bfb5b2;
+}
+
+h1{
+    color: purple;
+}
+
+.homeContainer{
+    border-style: dotted;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.titleStyle{
+    font-size: 60px;
+    margin-top: 20px;
+}

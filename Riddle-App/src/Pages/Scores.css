@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+
+p{
+    font-family: 'Langar', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;;
+}
+
+.container1 {
+
+}
+
+.container2{
+
+}
+
+.wholeContainer{
+    text-align: center;
+}
