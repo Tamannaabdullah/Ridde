@@ -67,4 +67,5 @@ function Riddles() {
 }
 export default Riddles;
 
-// 3. run "npm run build" in console, then after thats done run "git add ." then "git commit -m 'Added x riddle' " then "git push origin main"
+// 3. run "npm run build" in console (in riddles/Riddle-App)
+// 4. change into hackathon/riddles then run "git add ." then "git commit -m 'Added x riddle' " then "git push origin main"

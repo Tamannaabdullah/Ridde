@@ -3,7 +3,7 @@ CREATE TABLE answered(
     name VARCHAR(255),
     question VARCHAR(255),
     answer VARCHAR(255),
-    date DATETIME
+    time TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
 -- -- Get answers for a question
