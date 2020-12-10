@@ -1,14 +1,51 @@
-.riddleStyle{
-    font-size: 50px;
-    font-family: 'Philosopher', sans-serif;
-    text-align: center;
-
+.riddlestyles{
+    font-size: 25px;
+    font-family: monospace;
 }
 
 .containerRiddle{
     border-style: dotted;
     width: 60%;
+    height: 250px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+}
+
+.answer{
+    font-size: 20px;
+    font-family: 'Langar', cursive;
+}
+
+.pastAnswer{
+    font-size: 30px;
+    margin-top: 40px;
+    border-style: dotted;
+    width: 80%;
+    font-family: initial;
+}
+.title{
+    font-size: 80px;
+    font-family: 'Langar', cursive;
+    text-align: center;
+}
+
+p{
+    font-family: 'Langar', cursive;
+    font-size: 40px;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Langar', cursive;
+    text-align: center;
+
+}
+.name{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.gems{
+    margin-top: 30px;
 }

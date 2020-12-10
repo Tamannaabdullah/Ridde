@@ -23,10 +23,4 @@ export const SidebarData = [
         icon: <AiIcons.AiFillDatabase />,
         cName: 'nav-text'
     },
-    {
-        title:'Scores',
-        path: '/scores',
-        icon: <AiIcons.AiFillDatabase />,
-        cName: 'nav-text'
-    }
 ]

@@ -1,14 +1,15 @@
 body{
-    background: 	#bfb5b2;
+    background: #3d2352  ;
 }
 
 h1{
-    color: purple;
+    color: #e4dcf1;
 }
 
 .homeContainer{
     border-style: dotted;
     width: 70%;
+    height: 220px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -18,4 +19,21 @@ h1{
 .titleStyle{
     font-size: 60px;
     margin-top: 20px;
+    font-family: 'Langar', cursive;
+    text-align: center;
+    
+}
+
+p{
+    color: white;
+}
+
+.hack{
+    font-size: 50px;
+    font-family: 'Langar', cursive;
+}
+
+.intro{
+    font-family: monospace;
+    font-size: 20px;
 }
