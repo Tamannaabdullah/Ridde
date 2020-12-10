@@ -1,15 +1,70 @@
-import React from 'react'
+import React, { useState }  from 'react';
+import axios from "axios";
 import './Riddles.css'
 
+// 1. Change this to reflect the current question e.g "Q10" or "Q2";
+////////////////////////////////////
+const QUESTION_NUM = "Q3";
+////////////////////////////////////
+
+
 function Riddles() {
+
+    const [name, setName] = useState("");
+    const [question, setQuestion] = useState(QUESTION_NUM);
+    const [answer, setAnswer] = useState("");
+
+    const submitAnswer = async (e) => {
+        e.preventDefault();
+        try {
+            const response = await axios.post("/api/answer",{name: name, question: question, answer: answer});
+            if (response.status === 200){
+                alert("You're response has been submitted for validation by our expert team!");
+            } else {
+                alert("Sorry something went wrong!");
+            }
+        } catch (err) {
+            alert("Sorry, something went wrong!!!");
+        } finally {
+            setName("");
+            setAnswer("");
+            setQuestion(QUESTION_NUM);
+            return;
+        }
+
+    };
+
     return (
         <div>
             <h1>Riddles</h1>
+
+            {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-            <p className='riddleStyle'>First RIddle: JIHHUIegt r e4yegty4y  reygehydgry rerhygfdtr  ert5ryhutiouu  seregtr uujhfyuityyh</p>
+                <p className='riddleStyle'>Third RIddle: asd sdfsdfsdfh</p>
+                <p>Answer to second riddle: map</p>
+            </div>
+
+            <div>
+                <h1> SUBMIT YOUR ANSWER HERE</h1>
+                <form>
+                    <label htmlFor="name">Name:</label>
+                    <input type="text" onChange={(e) =>setName(e.target.value)} value={name} name="name" />
+
+                    <label htmlFor="question">Q number</label>
+                    <select name="question">
+                        <option value={QUESTION_NUM} onClick={(e) => setQuestion(e.target.value)}>{QUESTION_NUM}</option>
+                    </select>
+
+                    <label htmlFor="answer">Answer:</label>
+                    <input type="text" onChange={(e) => setAnswer(e.target.value)} value={answer} />
+
+                    <button type="submit" onClick={(e) => submitAnswer(e)}>Submit!</button>
+                </form>
             </div>
         </div>
 
     );
 }
 export default Riddles;
+
+// 3. run "npm run build" in console, then after thats done run "git add ." then "git commit -m 'Added x riddle' " then "git push origin main"
