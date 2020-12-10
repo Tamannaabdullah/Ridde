@@ -5,7 +5,7 @@ import * as FaIcons from 'react-icons/fa';
 
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q1";
+const QUESTION_NUM = "Q3";
 ////////////////////////////////////
 
 
