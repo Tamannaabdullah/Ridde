@@ -21,6 +21,7 @@ h1{
     margin-top: 20px;
     font-family: 'Langar', cursive;
     text-align: center;
+    text-shadow: 2px 2px 5px black;
     
 }
 
@@ -36,4 +37,9 @@ p{
 .intro{
     font-family: monospace;
     font-size: 20px;
+}
+.start{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
 }

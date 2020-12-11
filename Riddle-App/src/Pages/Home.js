@@ -27,6 +27,9 @@ function Home() {
                 The person with the most gems will win a prize, will that be you?
             </p>
             </div>
+            <p className='start'>
+                Let the Games Begin!
+            </p>
         </div>
 
     );

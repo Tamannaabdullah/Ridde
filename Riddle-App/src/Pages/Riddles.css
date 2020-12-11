@@ -21,7 +21,7 @@
     margin-top: 40px;
     border-style: dotted;
     width: 80%;
-    font-family: initial;
+    font-family: monospace;
 }
 .title{
     font-size: 80px;
@@ -48,4 +48,5 @@ h1{
 
 .gems{
     margin-top: 30px;
+    color: #8874a3;
 }

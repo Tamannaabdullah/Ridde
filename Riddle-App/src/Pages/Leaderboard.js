@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios";
+import * as GiIcons from 'react-icons/gi';
+import './Leaderboard.css'
 
 function Leaderboard() {
 
@@ -28,7 +30,14 @@ function Leaderboard() {
 
     return (
         <div className='leaderboard'>
-            <h1>Leaderboard</h1>
+            <h1 className='titleStyles'>Leaderboard</h1>
+            <div style={{display: "flex" , alignItems: "center", justifyContent: "center", color: '#B2A1D3'}}>
+                <GiIcons.GiCutDiamond size={45}/>
+                <GiIcons.GiCutDiamond size={50}/>
+                <GiIcons.GiCutDiamond size={60}/>
+                <GiIcons.GiCutDiamond size={50}/>
+                <GiIcons.GiCutDiamond size={45}/>
+            </div>
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                 {renderList()}
             </div>

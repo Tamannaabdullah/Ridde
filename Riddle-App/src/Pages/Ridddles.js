@@ -3,9 +3,10 @@ import axios from "axios";
 import './Riddles.css'
 import * as FaIcons from 'react-icons/fa';
 
+
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q3";
+const QUESTION_NUM = "Q1";
 ////////////////////////////////////
 
 
@@ -41,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>First Riddle: The first riddle is this, it is really cool and awesome and it is the best riddle ever, the best, no one can beat, it is so amazing</p>
+                <p className='riddlestyles'>First Riddle: ***I will add soon***</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
