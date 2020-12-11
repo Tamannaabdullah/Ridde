@@ -6,7 +6,7 @@ import * as FaIcons from 'react-icons/fa';
 
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q3";
+const QUESTION_NUM = "Q4";
 ////////////////////////////////////
 
 
@@ -42,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>Third riddle:I have keys, but no locks and space, and no rooms. You can enter, but you can’t go outside. What am I?</p>
+                <p className='riddlestyles'>Q4: After a train crashed, every single person sided. Who survived?</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
@@ -63,7 +63,11 @@ function Riddles() {
                     <button type="submit" onClick={(e) => submitAnswer(e)}>Submit!</button>
                 </form>
                 <p className='pastAnswer'>
-                    Previous answer: Take the letters F and E off of the word five. This leaves you with IV which is four in roman numerals.
+                    Q2 Answer: Take the letters F and E off of the word five. This leaves you with IV which is four in roman numerals.
+                    <br></br>
+                    Q1 Answer: At that moment, the time and day could be written as: 12:34, 5/6/78.
+                    <br></br>
+                    Q3: Keyboard
                 </p>
                 <div className='gems'>
                 <FaIcons.FaRegGem size={75}/>
