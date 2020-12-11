@@ -42,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>Q4: After a train crashed, every single person sided. Who survived?</p>
+                <p className='riddlestyles'>Q4: After a train crashed, every single person died. Who survived?</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
