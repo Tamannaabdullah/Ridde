@@ -42,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>First Riddle: ***I will add soon***</p>
+                <p className='riddlestyles'>First Riddle: Something very extraordinary happened on the 6th of May, 1978 at 12:34 a.m. What was it?</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
