@@ -6,7 +6,7 @@ const router = Router();
 
 router.get("/scores", async (req, res) => {
     try {
-        const response = await pool.query("SELECT * FROM users ORDER BY score");
+        const response = await pool.query("SELECT * FROM users ORDER BY Score DESC;");
         const users = response.rows;
         return res.status(200).json(users);
     } catch (err){
