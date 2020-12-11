@@ -6,7 +6,7 @@ import * as FaIcons from 'react-icons/fa';
 
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q5";
+const QUESTION_NUM = "Q6";
 ////////////////////////////////////
 
 
@@ -42,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>Q5: A taxi driver is going the wrong way down a one-way street. He passes four police officers, yet none of them stop him. Why?</p>
+                <p className='riddlestyles'>Q6: How is Europe like a frying pan?</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
@@ -63,6 +63,8 @@ function Riddles() {
                     <button type="submit" onClick={(e) => submitAnswer(e)}>Submit!</button>
                 </form>
                 <p className='pastAnswer'>
+                    Q5: The taxi driver was walking!
+                    <br></br>
                     Q4: The couples and the married people!
                     <br></br>
                     Q3: Keyboard
