@@ -6,7 +6,7 @@ import * as FaIcons from 'react-icons/fa';
 
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q2";
+const QUESTION_NUM = "Q3";
 ////////////////////////////////////
 
 
@@ -42,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>Second riddle: I have five and take away two, yet I am left with four. How is this possible?</p>
+                <p className='riddlestyles'>Third riddle:I have keys, but no locks and space, and no rooms. You can enter, but you can’t go outside. What am I?</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
@@ -63,7 +63,7 @@ function Riddles() {
                     <button type="submit" onClick={(e) => submitAnswer(e)}>Submit!</button>
                 </form>
                 <p className='pastAnswer'>
-                    Previous answer: At that moment, the time and day could be written as: 12:34, 5/6/78.
+                    Previous answer: Take the letters F and E off of the word five. This leaves you with IV which is four in roman numerals.
                 </p>
                 <div className='gems'>
                 <FaIcons.FaRegGem size={75}/>
