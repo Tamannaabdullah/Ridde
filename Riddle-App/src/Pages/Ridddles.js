@@ -6,7 +6,7 @@ import * as FaIcons from 'react-icons/fa';
 
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q1";
+const QUESTION_NUM = "Q2";
 ////////////////////////////////////
 
 
@@ -42,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>First Riddle: Something very extraordinary happened on the 6th of May, 1978 at 12:34 a.m. What was it?</p>
+                <p className='riddlestyles'>Second riddle: I have five and take away two, yet I am left with four. How is this possible?</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
@@ -63,7 +63,7 @@ function Riddles() {
                     <button type="submit" onClick={(e) => submitAnswer(e)}>Submit!</button>
                 </form>
                 <p className='pastAnswer'>
-                    Previous answer:
+                    Previous answer: At that moment, the time and day could be written as: 12:34, 5/6/78.
                 </p>
                 <div className='gems'>
                 <FaIcons.FaRegGem size={75}/>
