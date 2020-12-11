@@ -6,7 +6,7 @@ import * as FaIcons from 'react-icons/fa';
 
 // 1. Change this to reflect the current question e.g "Q10" or "Q2";
 ////////////////////////////////////
-const QUESTION_NUM = "Q8";
+const QUESTION_NUM = "Q9";
 ////////////////////////////////////
 
 
@@ -42,7 +42,7 @@ function Riddles() {
 
             {/* 2. Update this to reflect what the new riddle is, and post answer for previous */}
             <div className='containerRiddle'>
-                <p className='riddlestyles'>Q8: How many bananas can you eat if your stomach is empty?</p>
+                <p className='riddlestyles'>Q9: What is 3/7 chicken, 2/3 cat and 2/4 goat?</p>
             </div>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>​​​​​
@@ -63,6 +63,8 @@ function Riddles() {
                     <button type="submit" onClick={(e) => submitAnswer(e)}>Submit!</button>
                 </form>
                 <p className='pastAnswer'>
+                    Q8: one, because after that your stomach is no longer empty 
+                    <br></br>
                     Q7: They were on different sides of the river
                     <br></br>
                     Q6:Because it has Greece at the bottom
